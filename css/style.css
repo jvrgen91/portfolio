@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "acumin-pro", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  cursor: url(https://www.michieldegraaf.com/assets/images/icon-arrow-black.svg), auto;
+}
+body p {
+  font-size: 22px;
+}
+body a.msg {
+  color: #aa73ff;
+  text-decoration: none;
+  cursor: url(https://www.michieldegraaf.com/assets/images/icon-email-black.svg), auto;
+  transition: color 2ms;
+}
+
+.main {
+  display: block;
+}
+
+.full-container {
+  max-width: 1044px;
+  margin: auto 20%;
+  padding: auto 5%;
+}
+
+header > * {
+  margin-top: 20px;
+}
+
+.header-content h1, .header-content span {
+  margin: 0;
+  font-size: 22px;
+}
+.header-content p {
+  margin-top: 40px;
+}
+
+header {
+  margin-top: 10%;
+  width: 50%;
+}
+
+.logo {
+  cursor: progress;
+  width: 94%;
+  display: flex;
+  justify-content: end;
+}
+
+.logo span {
+  background-image: url(https://www.michieldegraaf.com/assets/images/logo-118x80.svg);
+}
+
+.logo-img {
+  margin-top: 5%;
+  position: fixed;
+}
+
+.card1 {
+  width: 90%;
+  margin-top: 20px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.card-up {
+  margin-top: 20rem;
+}
+
+.card1-title {
+  margin: 40px 0 180px 0;
+  display: block;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.about {
+  max-width: 800px;
+}
+.about a.msg {
+  color: #aa73ff;
+  text-decoration: none;
+  cursor: url(https://www.michieldegraaf.com/assets/images/icon-email-black.svg), auto;
+}
+.about p {
+  margin-top: 30px;
+}
+
+.links {
+  margin-top: 4rem;
+}
+.links ul {
+  list-style: none;
+  font-size: 22px;
+  padding-left: 0;
+}
+.links ul :nth-child(1) {
+  opacity: 0.9;
+}
+.links ul :nth-child(2) {
+  opacity: 0.7;
+}
+.links ul :nth-child(3) {
+  opacity: 0.6;
+}
+.links ul:hover {
+  opacity: 1 !important;
+}
+
+li {
+  margin-top: 4px;
+  text-decoration: underline;
+}
+li:hover {
+  text-decoration: none;
+  opacity: 1 !important;
+}
+
+li a.link {
+  text-decoration: none;
+  color: black;
+}
+li a.link:hover {
+  opacity: 1 !important;
+  color: #aa73ff;
+  cursor: url(https://www.michieldegraaf.com/assets/images/icon-link-black.svg), auto;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+.dark {
+  background-color: black;
+  color: #e6e6e6;
+  cursor: url(https://www.michieldegraaf.com/assets/images/icon-arrow-white.svg), auto;
+}
+.dark a.msg {
+  cursor: url(https://www.michieldegraaf.com/assets/images/icon-email-white.svg), auto;
+}
+.dark .purple-text {
+  cursor: url(https://www.michieldegraaf.com/assets/images/icon-link-white.svg), auto;
+  color: white;
+}
+.dark a.link {
+  color: white;
+}
+.dark a.link:hover {
+  cursor: url(https://www.michieldegraaf.com/assets/images/icon-link-white.svg), auto;
+}
+
+.middle span {
+  font-size: 22px;
+}
+
+.row {
+  --bs-gutter-x:4rem;
+}
+
+footer {
+  margin: 80px auto;
+  color: gray;
+}
+
+.purple-text {
+  cursor: url(https://www.michieldegraaf.com/assets/images/icon-link-black.svg), auto;
+}
+.purple-text:hover {
+  color: #aa73ff;
+}
+.purple-text a:hover {
+  color: #aa73ff;
+  cursor: url(https://www.michieldegraaf.com/assets/images/icon-link-black.svg), auto;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1180) {
+  .logo-img {
+    width: 12%;
+    height: 63px;
+  }
+
+  .logo {
+    width: 98%;
+  }
+
+  .header-content {
+    width: 70%;
+    margin-bottom: 30px;
+  }
+
+  .full-container {
+    margin: auto 10%;
+  }
+
+  .card1 {
+    width: 100%;
+  }
+
+  .about {
+    max-width: 600px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
