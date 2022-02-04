@@ -42,6 +42,10 @@ header > * {
   margin-top: 40px;
 }
 
+.header-content :nth-of-type(1){
+  margin-bottom: 0;
+}
+
 header {
   margin-top: 10%;
   width: 50%;
@@ -189,32 +193,5 @@ footer {
   cursor: url(https://www.michieldegraaf.com/assets/images/icon-link-black.svg), auto;
 }
 
-@media screen and (min-width: 800px) and (max-width: 1180) {
-  .logo-img {
-    width: 12%;
-    height: 63px;
-  }
-
-  .logo {
-    width: 98%;
-  }
-
-  .header-content {
-    width: 70%;
-    margin-bottom: 30px;
-  }
-
-  .full-container {
-    margin: auto 10%;
-  }
-
-  .card1 {
-    width: 100%;
-  }
-
-  .about {
-    max-width: 600px;
-  }
-}
 
 /*# sourceMappingURL=style.css.map */
